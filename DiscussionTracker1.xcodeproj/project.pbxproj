@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037715CA1CEA04C000E88505 /* BarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037715C91CEA04C000E88505 /* BarGraphViewController.swift */; };
 		03926F561CE4676000878F78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03926F551CE4676000878F78 /* AppDelegate.swift */; };
 		03926F581CE4676000878F78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03926F571CE4676000878F78 /* ViewController.swift */; };
 		03926F5B1CE4676000878F78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03926F591CE4676000878F78 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037715C91CEA04C000E88505 /* BarGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphViewController.swift; sourceTree = "<group>"; };
 		03926F521CE4676000878F78 /* DiscussionTracker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscussionTracker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03926F551CE4676000878F78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03926F571CE4676000878F78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				03926F551CE4676000878F78 /* AppDelegate.swift */,
 				03926F571CE4676000878F78 /* ViewController.swift */,
+				037715C91CEA04C000E88505 /* BarGraphViewController.swift */,
 				03926F591CE4676000878F78 /* Main.storyboard */,
 				03926F5C1CE4676000878F78 /* Assets.xcassets */,
 				03926F5E1CE4676000878F78 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				03926F581CE4676000878F78 /* ViewController.swift in Sources */,
 				03926F561CE4676000878F78 /* AppDelegate.swift in Sources */,
+				037715CA1CEA04C000E88505 /* BarGraphViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +491,7 @@
 				03926F7C1CE4676100878F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03926F7D1CE4676100878F78 /* Build configuration list for PBXNativeTarget "DiscussionTracker1Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				03926F7F1CE4676100878F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03926F801CE4676100878F78 /* Build configuration list for PBXNativeTarget "DiscussionTracker1UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				03926F821CE4676100878F78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
